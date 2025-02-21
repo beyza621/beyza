@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Türkiye Coğrafyası</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="x-icon" href="12.jpeg">
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="9.jpeg" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html" class="active">Ana Sayfa</a>
+        <a href="yorum.html">Yorumlar</a>
+        <a href="kaydol.html">Kaydol </a>
+        <a href="iletisim.html">İletişim </a>
+      </nav>
+
+      <div class="buttons" >
+        <a href="https://www.enuygun.com/otobus-bileti/">
+        <button id="search-btn">
+          <i class="fas fa-bus"></i>
+        </a>
+        </button>
+        <button id="cart-btn">
+          <a href="https://ebilet.tcddtasimacilik.gov.tr/view/eybis/tnmGenel/tcddWebContent.jsf">
+          <i class="fas fa-train"></i>
+        </a>
+        </button>
+        <button id="cart-btn">
+          <a href="https://www.enuygun.com/ucak-bileti/">
+          <i class="fas fa-plane"></i>
+        </a>
+        </button>
+
+      </div> 
+    </header>
+
+    <section class="contact" id="contact">
+      <h1 class="heading">KAY<span>DOL</span></h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.547488116663!2d31.17252727586371!3d40.90374012585556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409da0db61c98693%3A0xeb421a6422f81e6d!2zRMO8emNlIMOcbml2ZXJzaXRlc2k!5e0!3m2!1str!2str!4v1713270929753!5m2!1str!2str"referrerpolicy="no-referrer-when-downgrade">
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="#" method="post">
+          <h3>KAYDOL</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="İsim" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="inputBox">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="Şifre" />
+          </div>
+          <button type="button" class="btn" value="kaydol" onclick="kayitAlindi()" id="kayitButton">
+            <span id="kayit" class="hidden">Kaydınız Alınmıştır!</span>
+            Kaydol
+        </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+
+      </div>
+      <div class="share">
+        <a href="https://tr-tr.facebook.com/DuzceUni/" target="_blank" class="fab fa-facebook"></a>
+        <a href="https://twitter.com/duzceuniversite" target="_blank" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/duzceuniversite/?hl=tr" target="_blank" class="fab fa-instagram"></a>
+        <a href="https://tr.linkedin.com/company/duzce-universitesi" target="_blank" class="fab fa-linkedin"></a>
+      </div>
+
+      <div class="links">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="yorum.html">Yorumlar</a>
+        <a href="kaydol.html" class="active">Kaydol</a>
+        <a href="iletisim.html" class="active">İletişim</a>
+      </div>
+
+      <div class="credit">
+        Oluşturan <span>Beyzanur Şimşek</span> | Tüm Hakları Saklıdır.
+      </div>
+    </section>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
